@@ -6,15 +6,14 @@
   $userData;
 </script>
 
-<div class="min-h-screen flex flex-col">
-  <div>
-    <ul class="container">
-      <li><a href="/">Home</a></li>
-      <li><a href="/card">Card</a></li>
-      <li><a href="/gpt">GPT</a></li>
-    </ul>
-    <slot />
-  </div>
+<div>
+  <ul>
+    <li><a href="/">Home</a></li>
+    <li><a href="/card">Card</a></li>
+    <li><a href="/gpt">GPT</a></li>
+    <li><a href="/gptcard">Test</a></li>
+  </ul>
+  <slot />
 </div>
 
 <style>
