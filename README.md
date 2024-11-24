@@ -1,38 +1,27 @@
-# create-svelte
+# Lecture Flashcard Generator 📚✨
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+**Lecture Flashcard Generator** is a web app (currently under development) designed to enhance study efficiency by transforming lecture notes or slides into flash memory cards. With the power of OpenAI's **GPT-4 Image Model**, the app automates the process of summarizing and extracting key points from uploaded images.
 
-## Creating a project
+---
 
-If you're seeing this, you've probably already done this step. Congrats!
+## 🚀 Features (In Development)
+- **Upload Lecture Notes or Slides:** Easily upload images of handwritten or typed notes.
+- **AI-Powered Flashcard Generation:** Automatically create concise flashcards to aid study sessions.
+- **Streamlined Study Workflow:** Reduce manual work and focus on learning.
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+---
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+## 🛠️ Technology Stack
+- **OpenAI GPT-4 Image Model:** For intelligent text extraction and summarization.
+- **Svelte & Firebase:** Delivering a responsive frontend and robust backend.
 
-## Developing
+---
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## 🌟 Future Enhancements
+- Cloud storage for saving and organizing flashcards.
+- Multi-language support for international users.
+- Enhanced customization for flashcard formatting.
 
-```bash
-npm run dev
+---
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+Stay tuned for updates as we bring **Lecture Flashcard Generator** to life, revolutionizing the way you study!
